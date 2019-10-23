@@ -115,11 +115,12 @@ function showMessages() {
 }
 function adjustWordsPosition() {
     $("#words").css("position", "absolute");
-    $("#words").css("top", $("#garden").position().top + 195);
+    $("#words").css("top", $("#garden").position().top + 175);
     $("#words").css("left", $("#garden").position().left + 70)
 }
 function adjustCodePosition() {
-    $("#code").css("margin-top", ($("#garden").height() - $("#code").height()) / 2)
+    //$("#code").css("margin-top", ($("#garden").height() - $("#code").height()) / 2)
+	$("#code").css("margin-top", -64.5px)
 }
 function showLoveU() {
     $("#loveu").fadeIn(3000)
